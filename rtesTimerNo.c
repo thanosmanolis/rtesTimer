@@ -48,7 +48,7 @@ int main(int argc, char **argv)
 		if(!strcmp(answer, "y"))
 		{
 			char file_name[100];
-			printf("Insert exact path to file:\n");
+			printf("Insert file name:\n");
 			scanf("%s", file_name);
 
 			FILE *fp;
